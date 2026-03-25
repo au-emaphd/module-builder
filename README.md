@@ -4,7 +4,7 @@ A module building tool.
 
 
 
-Description
+\# Description
 
 A tool for turning learning media spreadsheets stored in Google Docs into copiable D2L module page text.
 
@@ -12,31 +12,27 @@ A tool for turning learning media spreadsheets stored in Google Docs into copiab
 
 
 
-Dependencies
+\# Dependencies
 
 * 
 
 
 
-Help
+\# Help
 
 * 
 
 
 
-Author
+\# Author
 
-emaphd 
+emaphd
 
 
 
-Version History
+\# Version History
 
 * 1.0
 
   * Initial release
-
-
-
-
 
