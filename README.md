@@ -1,36 +1,44 @@
 # module builder
 
-A module building tool.
+A D2L module building tool.
 
 
 
-\# Description
+# 
+
+# Description
 
 A tool for turning learning media spreadsheets stored in Google Docs into copiable D2L module page text.
 
 
 
+# 
 
-
-\# Dependencies
-
-* 
-
-
-
-\# Help
+# Dependencies
 
 * 
 
 
 
-\# Author
+# 
+
+# Help
+
+* 
+
+
+
+# 
+
+# Author
 
 emaphd
 
 
 
-\# Version History
+# 
+
+# Version History
 
 * 1.0
 
