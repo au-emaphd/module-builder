@@ -15,7 +15,132 @@
 <!-- main container -->
 <body>
 
-    <h1>module builder</h1>
+    <div class="container-fluid">
+
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <h1>module builder</h1>
+            </div>
+        </nav>
+
+
+        <div class="container-md">
+
+        <!-- Tabs -->    
+            <div class="row">
+                <ul class="nav nav-tabs" id="modBuildTabs" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tabMod" type="button">
+                        Modules
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabCal" type="button">
+                        Calendar
+                        </button>
+                    </li>
+                    
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabData" type="button">
+                        Database
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabCalc" type="button">
+                        Metrics
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        <!-- Tab Content -->
+            <div class="row">
+                
+                <div class="tab-content border border-top-0 p-3">
+
+                <!-- Modules -->
+                    <div class="tab-pane fade show active" id="tabMod" role="tabpanel">
+
+                        <div class="row">
+                            <h2 class="h5">Modules</h2>
+                        </div>
+                        <div class="row">
+                            <p>Tab will show all module content organized in accordions, showing prework, classwork, and weekly assignments for each module. 
+                                Format will be so that content can be copied into D2L HTML pages.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                <!-- Calendar -->
+                    <div class="tab-pane fade" id="tabCal" role="tabpanel">
+
+                        <div class="row">
+                            <h2 class="h5">Calendar</h2>
+                        </div>
+                        <div class="row">
+                                <p>Tab will show all learning content organized by week, showing prework, classwork, and weekly assignments for each module with the date. 
+                                Format will be so that content can be copied into D2L HTML pages.
+                                </p>
+                        </div>
+
+                    </div>
+                
+                <!-- Database -->
+                    <div class="tab-pane fade" id="tabData" role="tabpanel">
+
+                        <div class="row">
+                            <h2 class="h5">Database</h2>
+                        </div>
+                        <div class="row">
+                            <p>Tab will show an embed of the Tech Sales Program Base stored in Google Sheets, 
+                                listing all learning content as individual line items with metadata.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                <!-- Metrics -->
+                    <div class="tab-pane fade" id="tabCalc" role="tabpanel">
+
+                        <div class="row">
+                            <h2 class="h5">Metrics</h2>
+                        </div>
+                        <div class="row">
+                            <p>Tab will show item lengths, estimate task completion times, and credit hour compliance calculations for the course.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <nav class="navbar fixed-bottom bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="nav-link" href="https://github.com/au-emaphd/module-builder/">github repo</a>
+                <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1BwyX-ZNzm9QJpgpmS7sVatemdRYGcaVG4S7InKPqX5U/edit?gid=2073239778#gid=2073239778">program base (google sheets)</a>
+                <a class="nav-link" href="#">learning media (google drive folder)</a>
+            </div>
+        </nav>
+    </div>
+
+
+
+    
 
 
 
